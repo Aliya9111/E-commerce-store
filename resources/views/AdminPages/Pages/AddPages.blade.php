@@ -9,7 +9,7 @@
 </style>
 @endsection
 @section("title")
-  <title>pages</title>
+  <title>Pages</title>
 @endsection 
 @section('BreadCrumb')
     pages
