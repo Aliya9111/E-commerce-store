@@ -1,0 +1,28 @@
+.backcolor{
+    background-color: rgba(89, 111, 219,0.3);
+}
+.AuthHeads{
+    font-size: 30px;
+    text-shadow: 4px 3px 4px rgb(6, 42, 221);
+}
+label{
+    font-size: 13px;
+}
+.text-danger{
+    font-size: 14px;
+    font-family: sans-serif;
+}
+li.timeSetError{
+    font-size: 13px;
+    font-family: sans-serif;
+}
+.passReset{
+    font-size: 13px;
+    transition-property: font-size;
+    transition-duration: 0.6;
+    transition-timing-function: ease;
+    /* transition */
+}
+.passReset:hover{
+    font-size: 15px;
+}

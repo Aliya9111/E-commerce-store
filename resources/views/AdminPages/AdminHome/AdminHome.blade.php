@@ -1,0 +1,1 @@
+@extends('AdminPages.layouts.AdminBase')

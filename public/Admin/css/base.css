@@ -1,0 +1,310 @@
+@import url('baseMedia.css');
+:root{
+    --backColor:#14afce;
+    --marginleft:30px;
+    --rowWidth:200px;
+    --rowleftBorder:aliceblue;
+}
+.profileImg{
+    height:30px;
+    width:30px;
+    object-fit:cover;
+}
+p.text-danger{
+    font-size: 13px;
+}
+.bgMultiColor{
+    background-image: linear-gradient(to right,#a5cdd4,#bbedf7,#afdce6);
+}
+div>ul>li:hover{
+    background-color:aliceblue;
+}
+.OpenClose{
+    transition:width 0.3s ease;
+}
+.OpenClose.close{
+    width:45px;
+    /* position:relative; */
+}
+ul.dropdown-menu li.list-group-item a:hover{
+    background-color: #0dcaf0;
+}
+/* category */
+.cate:hover .c1,
+.cate:hover .c2,
+.cate:hover .c3 {
+    background-color: var(--backColor);
+}
+/* Subcategory */
+.Subcate:hover .sc1,
+.Subcate:hover .sc2,
+.Subcate:hover .sc3 {
+    background-color: var(--backColor);
+}
+/* brand */
+.brand:hover .b1,
+.brand:hover .b2,
+.brand:hover .b3 {
+    background-color: var(--backColor);
+}
+/* product */
+.pro:hover .p1,
+.pro:hover .p2,
+.pro:hover .p3 {
+    background-color: var(--backColor);
+}
+/* user */
+.usr:hover .u1,
+.usr:hover .u2,
+.usr:hover .u3 {
+    background-color: var(--backColor);
+}
+/* pages */
+.pages:hover .p1,
+.pages:hover .p2,
+.pages:hover .p3 {
+    background-color: var(--backColor);
+}
+.row.p-0:hover{
+    background-color: var(--backColor);
+    border-left:3px solid var(--rowleftBorder) ;
+}
+
+.darklight{
+    background-color: var(--backColor);
+}
+.bgblue{
+    background-color: #0dcaf0;
+}
+.increaseTextSize {
+    transition: font-size 0.3s ease;
+}
+
+.increaseTextSize:hover {
+    font-size: 20px;
+}
+
+.bgblack{
+    background-color: rgb(58, 54, 54);
+}
+.positionCate{
+    margin-top: -35px;
+    margin-left: var(--marginleft);
+    display:none;
+    width: var(--rowWidth);
+    background-color: #0dcaf0;
+    padding: 9px 10px;
+    border-radius: 0px;
+    justify-content: center;
+
+}
+.positionSub{
+    margin-top: -35px;
+    margin-left: var(--marginleft);
+    display:none;
+    width: var(--rowWidth);
+    background-color: #0dcaf0;
+    padding: 9px 10px;
+    border-radius: 0px;
+    justify-content: center;
+}
+.positionbrand{
+    margin-top: -35px;
+    margin-left: var(--marginleft);
+    display:none;
+    width: var(--rowWidth);
+    background-color: #0dcaf0;
+    padding: 9px 10px;
+    border-radius: 0px;
+    justify-content: center;
+}
+.positionpro{
+    margin-top: -35px;
+    margin-left: var(--marginleft);
+    display:none;
+    width: var(--rowWidth);
+    background-color: #0dcaf0;
+    padding: 9px 10px;
+    border-radius: 0px;
+    justify-content: center;
+}
+.positionusr{
+    margin-top: -35px;
+    margin-left: var(--marginleft);
+    display:none;
+    width: var(--rowWidth);
+    background-color: #0dcaf0;
+    padding: 9px 10px;
+    border-radius: 0px;
+    justify-content: center;
+}
+.c1:hover .positionCate,
+.sc1:hover .positionSub,
+.b1:hover .positionbrand,
+.p1:hover .positionpro,
+.u1:hover .positionusr
+{
+    display: flex;
+}
+/* hover the col-12 and increase size of row category*/
+.cate:hover {
+    border-left:3px solid var(--rowleftBorder) ;
+}
+.hidea:hover .cate {
+    border-left:3px solid var(--rowleftBorder) ;
+}
+.hidea:hover .positionCate{
+    display: flex;
+}
+/* hover the col-12 and increase size of row subcategory*/
+.Subcate:hover {
+    border-left:3px solid var(--rowleftBorder) ;
+}
+.hidea:hover .Subcate {
+    border-left:3px solid var(--rowleftBorder) ;
+}
+.hidea:hover .positionSub{
+    display: flex;
+}
+/* hover the col-12 and increase size of row brand*/
+.brand:hover {
+    border-left:3px solid var(--rowleftBorder) ;
+}
+.hidea:hover .brand {
+    border-left:3px solid var(--rowleftBorder) ;
+}
+.hidea:hover .positionbrand{
+    display: flex;
+}
+
+/* hover the col-12 and increase size of row products*/
+.pro:hover {
+    border-left:3px solid var(--rowleftBorder) ;
+}
+.hidea:hover .pro {
+    border-left:3px solid var(--rowleftBorder) ;
+}
+.hidea:hover .positionpro{
+    display: flex;
+}
+
+/* hover the col-12 and increase size of row user*/
+.usr:hover {
+    border-left:3px solid var(--rowleftBorder) ;
+}
+.hidea:hover .usr {
+    border-left:3px solid var(--rowleftBorder) ;
+}
+.hidea:hover .positionusr{
+    display: flex;
+}
+#imgedit{
+   bottom: 0;
+   left: 0;
+   right: 0;
+   /* width: 400px;  */
+   opacity: 0;
+   /* display: block; */
+   transition: .5s ease;
+   width: 100%;
+   text-align: center;
+}
+
+#showedit:hover > #imgedit{
+    opacity: 1;
+}
+#bg-change{
+    font-size: 17px;
+}
+#showImg{
+    width: 100%;
+    height: 100%;
+}
+.divImgIncrease{
+    height: 70%;
+    width: 0px;
+    animation-name: divsize;
+    animation-duration: 2s;
+    animation-timing-function: ease;
+    animation-fill-mode: both;
+}
+@keyframes divsize{
+    from{width: 0;}
+    to{width: 100%;}
+
+}
+#rotate-img,#crop-img{
+    margin-top:-100px;
+    opacity: 0;
+    animation-name: cropRotateEffect;
+    animation-duration: 2s;
+    animation-timing-function: ease;
+    animation-fill-mode: both;
+}
+@keyframes cropRotateEffect{
+    from{
+        margin-top:-100px;
+        opacity: 0;
+    }
+    to{
+        margin-top:0px;
+        opacity: 1;
+    }
+}
+#crop-rotate{
+    text-align: center;
+    /* transition: 2s ease; */
+}
+/* #crop-img:focus,#crop-rotate{
+    text-align: left;
+} */
+#check{
+    padding-left: 0;
+    opacity: 0;
+    visibility: hidden;
+    transition: padding-left 2s ease, opacity 2s ease,visibility 2s ease;
+}
+#check.check-effectAdd{
+    padding-left: 340px;
+    opacity: 1;
+    visibility: visible;
+}
+#check.check-effectRemove{
+    padding-left: 0px;
+    opacity: 0;
+    visibility: hidden;
+}
+
+#img-top-hide,
+#img-left-hide,
+#img-right-hide,
+#img-bottom-hide { 
+    transform: translateY(100%);
+    animation-name: imagesSidesShow;
+    animation-duration: 2s;
+    animation-timing-function: ease;
+    animation-fill-mode: both; 
+}
+#img-top-hide { animation-delay: 0s; }
+#img-left-hide { animation-delay: 0.2s; }
+#img-right-hide { animation-delay: 0.4s; }
+#img-bottom-hide { animation-delay: 0.6s; }
+@keyframes imagesSidesShow {
+    from {
+        transform: translateY(100%);
+    }
+    to {
+        transform: translateY(0);
+    }
+}
+label{
+    font-size: 15px;
+    opacity: 0.9;
+    font-family: sans-serif;
+}
+.inputSize{
+    font-size: 13px;
+}
+h3{
+    opacity: 0.9;
+}

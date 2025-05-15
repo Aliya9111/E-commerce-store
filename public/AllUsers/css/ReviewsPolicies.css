@@ -1,0 +1,13 @@
+h3.headingShadow{
+    font-weight: bold;
+}
+.likeDislike > li{
+    font-size: 18px;
+    font-family: sans-serif;
+    opacity: 0.9;
+}
+.likeDislike span{
+    font-size: 14px;
+    font-family: sans-serif;
+    opacity: 0.9;
+}

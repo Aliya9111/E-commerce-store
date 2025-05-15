@@ -1,0 +1,27 @@
+
+.breadCrumbMove{
+    align-content: center;
+}
+.TotalProductsBack{
+    background-image: linear-gradient(to right,red,rgb(231, 58, 58),rgb(134, 58, 58));
+    color: white;
+}
+.TotalOrderssBack{
+    background-image: linear-gradient(to right,green,rgb(71, 194, 71),rgb(122, 209, 122));
+    color: white;
+}
+.NewOrsersBack{
+    background-image: linear-gradient(to right,orange,rgb(219, 162, 57),rgb(204, 172, 113));
+    color: white;
+}
+.CommentssBack{
+    background-image: linear-gradient(to right,rgb(230, 25, 137),rgb(207, 73, 147),rgb(216, 129, 177));
+    color: white;
+}
+.TotalSaleBack{
+    background-image: linear-gradient(to right,rgb(25, 165, 230),rgb(85, 159, 194),rgb(131, 177, 199));
+    color: white;
+}
+.DiconSize{
+    font-size: 60px;
+}

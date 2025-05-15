@@ -1,0 +1,34 @@
+.BoxEffect{
+    height: 0;
+    width: 100%;
+    opacity: 0;
+    top: 0;
+    left: 0;
+    right: 0;
+    /* margin-left: 10px; */
+    overflow: hidden;
+    background-color: rgba(0, 0, 0, 0.2);
+    transition: .5s ease;
+  
+
+}
+.text{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    overflow: hidden;
+    white-space: nowrap; 
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+}
+.unhide:hover .BoxEffect{
+    opacity: 1;
+    height: 100%;
+}
+.marginSet{
+    color: red;
+}
+td,th{
+    font-size: 15px;
+    align-content: center;
+}

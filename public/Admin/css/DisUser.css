@@ -1,0 +1,12 @@
+.adminedit{
+    height:250px;
+    width:250px;
+    object-fit: cover;
+  }
+/* .showContent{
+  display: none;
+}   */
+/* .showContent:click + .showContent {
+  display: block;
+}  */
+/* .hidecontent:active  */

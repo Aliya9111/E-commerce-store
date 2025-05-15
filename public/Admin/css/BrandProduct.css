@@ -1,0 +1,27 @@
+.select2-container--default .select2-selection--multiple .select2-selection__choice__display {
+    cursor: default;
+    padding-left: 2px;
+    padding-right: 5px;
+    color: black;
+    background-color: #14afce;
+    border: 0px;
+}
+.select2-container--default .select2-selection--multiple .select2-selection__choice__remove{
+    background-color: #14afce;
+    color: black;
+}
+.pImage{
+    height: 50px;
+    width: 50px;
+    object-fit: contain;
+}
+.custom-editor {
+    height: 300px; 
+}
+/* table tr td:first-of-type{
+    color: #14afce;
+} */
+table,tr,th,td{
+    border:1px solid black;
+    padding: 10px;
+}

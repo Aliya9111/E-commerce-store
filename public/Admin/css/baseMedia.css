@@ -1,0 +1,28 @@
+@media screen and (max-width:500px){
+    #img-top-hide>p, 
+    #img-left-hide>p,
+    #img-right-hide>p,
+    #img-bottom-hide>p{
+   font-size: 13px;
+    
+} 
+}
+@media screen and (max-width:360px){
+    .setButtonSize input,
+    .setButtonSize button,
+    #img-update button,
+    #img-update a{
+        font-size: 13px;
+        height: 30px;
+        width: 70px;
+        margin-bottom: 3px;
+        padding: 5px;
+    }
+}
+@media screen and (max-width:350px){
+    #imgedit{
+        font-size: 13px;
+        height: 20px;
+       
+    }
+}
