@@ -9,7 +9,7 @@
 </style>
 @endsection
 @section("title")
-  <title>pages</title>
+  <title>Pages</title>
 @endsection 
 @section('BreadCrumb')
     pages
@@ -19,7 +19,7 @@
     <div class="row mt-3 ms-3 me-3 gy-2 justify-content-around">
         <div class="row">
             <div class="col-12 d-flex">
-                <h3>Create Page:</h3>
+                <h3>Create Page (new):</h3>
                 
                 <a href="{{route('Pages.create')}}" class="btn btn-outline-dark ms-3 btn-sm mt-1 mb-1">Clear data</a>
                 <a href="{{route('Pages.index')}}" class="btn btn-outline-dark ms-3 btn-sm mt-1 mb-1">Check all</a>
