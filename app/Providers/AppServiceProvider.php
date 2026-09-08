@@ -13,6 +13,7 @@ class AppServiceProvider extends ServiceProvider
     public function register(): void
     {
         Gate::define('isAdmin',function(User $user){
+            a=3; 
             return $user->status ==='admin';
         });
         Gate::define('SingleUser',function(User $user,int $id){
